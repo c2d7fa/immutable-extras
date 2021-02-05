@@ -1,6 +1,6 @@
 {
   "name": "@johv/immutable-extras",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small utility library for use with Immutable.js",
   "main": "lib/index.js",
   "files": [
