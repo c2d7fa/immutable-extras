@@ -1,7 +1,7 @@
 import {Set} from "immutable";
 import {BinaryRelation} from "./binary-relation";
 
-interface MapWithPreimage<T, U> {
+export interface MapWithPreimage<T, U> {
   get(x: T): U | undefined;
   preimage(y: U): Set<T>;
   set(x: T, y: U): MapWithPreimage<T, U>;
